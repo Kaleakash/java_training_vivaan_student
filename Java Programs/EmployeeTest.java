@@ -31,10 +31,10 @@ class EmployeeTest {
 	public static void main(String args[]) {
 	Employee emp1 = new Employee();			// empty constructor 
 	Employee emp2 =new Employee();			// empty constructor 
-	Employee emp3 = new Employee(102,"Ajay",16000);	// parametetrized constructor 
+		Employee emp3 = new Employee(102,"Ajay",16000);	// parametetrized constructor 
 	emp1.setValue(100,"Ravi",12000);
 	emp2.setValue(101,"Ramesh",14000);
-	emp2.setValue(1001,"Ramesh Kumar",16000);
+		emp2.setValue(1001,"Ramesh Kumar",16000);
 	/*emp1.id=100;
 	emp1.name="Ravi";
 	emp1.salary=12000;
