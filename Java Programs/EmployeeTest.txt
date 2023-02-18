@@ -1,0 +1,21 @@
+class Employee {
+	int id;
+	String name;
+	float salary;
+	
+
+	void display(){
+		System.out.println("id is "+id);
+		System.out.println("name is "+name);
+		System.out.println("salary is "+salary);
+	}
+}
+
+class EmployeeTest {
+	public static void main(String args[]) {
+	Employee emp1 = new Employee();
+	Employee emp2 =new Employee();
+	emp1.display();
+	emp2.display();
+	}
+}
